@@ -20,7 +20,7 @@
 
 <h2>Introduction📌</h2>
 
-This is a project in C++ that fetches the time from the system and greets the user according to the time fetched. It also randomly selects one motivational quote for morning, afternoon and evening from Mo.txt, Af.txt and Ev.txt  respectively.
+This is a project in C++ that fetches the time from the system and greets the user according to the time fetched. It also randomly selects one motivational quote for morning, afternoon and evening from [Mo.txt](Mo.txt), [Af.txt](Af.txt) and [Ev.txt](Ev.txt) respectively.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
