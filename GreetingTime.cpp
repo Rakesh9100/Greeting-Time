@@ -52,21 +52,21 @@ int main() {
     if (hour >= 5 && hour < 12) {
         strcpy(greet, message[0]);
         printf("\nHello, Good %s\nHave a Nice Day!!", greet);
-        printf("\nMotivational Quote for you: ");
+        printf("\nMotivational Quote: ");
         one_line(1);//printing the quote
     }
     else if (hour >= 12 && hour < 17) {
         strcpy(greet, message[1]);
         printf("\nHi, Good %s\nHave a Nice Day!!", greet);
-        printf("\nOne fact for you: ");
-        one_line(2);//printing fact
+        printf("\nMotivational Quote: ");
+        one_line(2);
 
     }
     else if (hour >= 17 && hour < 21) {
         strcpy(greet, message[2]);
         printf("\nHi, It's a Lovely %s\nHave a Nice Day!!", greet);
-        printf("\nOne life hack for you: ");
-        one_line(3);//printing life hack
+        printf("\nMotivational Quote: );
+        one_line(3);
     }
     else if (hour >= 21 && hour < 24) {
         strcpy(greet, message[3]);
