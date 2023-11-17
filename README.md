@@ -20,7 +20,7 @@
 
 <h2>Introduction📌</h2>
 
-This ia a project in C++ which fetch the time from the system and greet the user according to time fetched.
+This is a project in C++ that fetches the time from the system and greets the user according to the time fetched. It also randomly selects one motivational quote for morning, afternoon and evening from [Mo.txt](Mo.txt), [Af.txt](Af.txt) and [Ev.txt](Ev.txt) respectively.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -36,15 +36,16 @@ This ia a project in C++ which fetch the time from the system and greet the user
 
 <h3>1. The Time on the system is 09:00 AM</h3>
 
-![image](https://user-images.githubusercontent.com/73993775/215274630-6ac74cbd-ffa1-4f12-95e4-93360a6b4310.png)
+![Mor_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/c5714721-ed1b-47ac-bf29-d2a69dd582c0)
 
-<h3>2. The Time on the system is 08:48 PM</h3>
 
-![image](https://user-images.githubusercontent.com/73993775/215274507-423fe4e6-2120-4103-816b-956db8270cce.png)
+<h3>2. The Time on the system is 12:00 PM</h3>
 
-<h3>3. The Time on the system is 10:51 PM</h3>
+![image](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/70fbcacb-bfee-40d9-b8eb-c89636a051e7)
 
-![image](https://user-images.githubusercontent.com/73993775/215274595-c46f9a41-c85e-4b6d-884b-05897c97061f.png)
+<h3>3. The Time on the system is 08:00 PM</h3>
+
+![Eve_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/989fd69a-4d57-48e0-aba7-e0469610dbf5)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
