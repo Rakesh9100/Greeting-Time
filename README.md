@@ -36,16 +36,20 @@ This is a project in C++ that fetches the time from the system and greets the us
 
 <h3>1. The Time on the system is 09:00 AM</h3>
 
-![Mor_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/c5714721-ed1b-47ac-bf29-d2a69dd582c0)
+![Mor_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/7d5a1b6d-e29a-4d8a-94d3-0aa2f15cb60d)
+
 
 
 <h3>2. The Time on the system is 12:00 PM</h3>
 
-![image](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/70fbcacb-bfee-40d9-b8eb-c89636a051e7)
+![Aft_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/3455b99e-f18f-4e2c-9ff5-e2770cc0ab6c)
+
+
 
 <h3>3. The Time on the system is 08:00 PM</h3>
 
-![Eve_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/989fd69a-4d57-48e0-aba7-e0469610dbf5)
+![Eve_mot](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/7b1f694f-9fb7-492d-bdc5-f7c8bb8896d8)
+
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
