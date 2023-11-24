@@ -35,7 +35,8 @@ This is a project in C++ that fetches the time from the system and greets the us
 <h2>Overview⭐</h2>
 
 <h3>1. The Time on the system is 09:00 AM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899395-7d5a1b6d-e29a-4d8a-94d3-0aa2f15cb60d.png" alt = "Morning Motivation"></img>
+![image](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/718709cc-5328-425b-b598-0cb2846117fd)
+
 
 <h3>2. The Time on the system is 12:00 PM</h3>
 <img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899430-3455b99e-f18f-4e2c-9ff5-e2770cc0ab6c.png" alt = "Afternoon Motivation"></img>
