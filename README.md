@@ -35,14 +35,13 @@ This is a project in C++ that fetches the time from the system and greets the us
 <h2>Overview⭐</h2>
 
 <h3>1. The Time on the system is 09:00 AM</h3>
-![image](https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/718709cc-5328-425b-b598-0cb2846117fd)
-
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/25f13e25-2acb-4293-9905-9c2a989ac149.png" alt = "Morning_temp"></img>
 
 <h3>2. The Time on the system is 12:00 PM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899430-3455b99e-f18f-4e2c-9ff5-e2770cc0ab6c.png" alt = "Afternoon Motivation"></img>
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/ce435fd4-98d9-4070-b914-d174788b13a3.png" alt = "Afternoon_temp"></img>
 
 <h3>3. The Time on the system is 08:00 PM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899323-7b1f694f-9fb7-492d-bdc5-f7c8bb8896d8.png" alt = "Evening Motivation"></img>
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/4c2295fa-2d7c-49da-8786-4bdd41bcd561.png" alt = "Evening_temp"></img>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -91,6 +90,20 @@ git push origin <your_branch_name>
 - Wait for your pull request to be reviewed and if required suggestions would be provided to improve it.
 - Celebrate 🥳 your success after your pull request is merged successfully.
 <p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Installation of Library📑</h2>
+
+For fetching the details of wheather from an API request. The following two libraries are required to be installed:
+- [curl/curl.h](https://curl.se)
+- [nlohmann/json.hpp](https://github.com/nlohmann/json)
+
+Installation:
+
+- [curl/curl.h](https://everything.curl.dev/get)
+- [Step-by-step installation of curl on Visual studio](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
+- [nlohmann/json.hpp](https://github.com/nlohmann/json#integration)
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
