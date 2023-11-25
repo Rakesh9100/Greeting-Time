@@ -20,7 +20,7 @@
 
 <h2>Introduction📌</h2>
 
-Greeting-Time is a versatile console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches real-time weather information using an API request, keeping you informed and motivated throughout the day.
+Greeting-Time is a console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches real-time weather information using an API request, keeping you informed and motivated throughout the day.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -106,11 +106,11 @@ Installation:
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
-<h2>Addition files required for Program📑</h2>
+<h2>Additional files required for Program📑</h2>
 
 Text files for printing the randomized quotes from the text file according to the current time:
-- [Mo.txt](Mo.txt) (For morning motivation quotes)
-- [Af.txt](Af.txt) (For afternoon motivation quotes)
+- [Mo.txt](Mo.txt) (For Morning motivation quotes)
+- [Af.txt](Af.txt) (For Afternoon motivation quotes)
 - [Ev.txt](Ev.txt) (For Evening motivation quotes)
   
 Text file for fetching the current wheater of a location:
@@ -124,7 +124,7 @@ Editing quote text files:
 
 Editing the wheater location text file:
 - Just replace the text only with your city name (like: Bhopal, Delhi)
-- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](GreetingTime.cpp) <br>
+- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](https://github.com/Volcano-Dragon/Greeting-Time/blob/bf65543d67534c8cf51ad30b86dcee936d3a97af/GreetingTime.cpp#L43) <br>
  (like: "...&query="+ buffer +",%20Japan")
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
