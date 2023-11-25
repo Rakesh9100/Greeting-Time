@@ -103,6 +103,7 @@ Installation:
 - [curl/curl.h](https://everything.curl.dev/get)
 - [Step-by-step installation of curl for Visual studio](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
 - [nlohmann/json.hpp](https://github.com/nlohmann/json#integration)
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -126,6 +127,7 @@ Editing the wheater location text file:
 - Just replace the text only with your city name (like: Bhopal, Delhi)
 - To change the location of country, please edit the URL (variable name = user_city) in the [source-code](GreetingTime.cpp#L43) <br>
  (like: "...&query="+ buffer +",%20Japan")
+<p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
