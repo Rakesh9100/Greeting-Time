@@ -10,6 +10,8 @@
 - [Technology Used🚀](#technology-used)
 - [Overview⭐](#overview)
 - [Getting Started💥](#getting-started)
+- [Installation of Library📑](#installation-of-Library)
+- [Additional files required for Program📑](#additional-files-required-for-Program)
 - [Contributing Guidelines📑](#contributing-guidelines)
 - [Code Of Conduct📑](#code-of-conduct)
 - [Project Admin⚡](#project-admin)
