@@ -20,7 +20,7 @@
 
 <h2>Introduction📌</h2>
 
-This is a project in C++ that fetches the time from the system and greets the user according to the time fetched. It also randomly selects one motivational quote for morning, afternoon and evening from [Mo.txt](Mo.txt), [Af.txt](Af.txt) and [Ev.txt](Ev.txt) respectively.
+Greeting-Time is a versatile console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches real-time weather information using an API request, keeping you informed and motivated throughout the day.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -100,10 +100,32 @@ For fetching the details of wheather from an API request. The following two libr
 - [nlohmann/json.hpp](https://github.com/nlohmann/json)
 
 Installation:
-
 - [curl/curl.h](https://everything.curl.dev/get)
-- [Step-by-step installation of curl on Visual studio](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
+- [Step-by-step installation of curl for Visual studio](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
 - [nlohmann/json.hpp](https://github.com/nlohmann/json#integration)
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Addition files required for Program📑</h2>
+
+Text files for printing the randomized quotes from the text file according to the current time:
+- [Mo.txt](Mo.txt) (For morning motivation quotes)
+- [Af.txt](Af.txt) (For afternoon motivation quotes)
+- [Ev.txt](Ev.txt) (For Evening motivation quotes)
+  
+Text file for fetching the current wheater of a location:
+- [cnf.txt](cnf.txt)
+
+<h3>How to edit the text files</h3>
+
+Editing quote text files:
+- Make sure to add the hashtag "#" after the last quote so the program can stop reading further.
+- Keep Serial number in format so the program can select the quotes randomly.
+
+Editing the wheater location text file:
+- Just replace the text only with your city name (like: Bhopal, Delhi)
+- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](GreetingTime.cpp) <br>
+ (like: "...&query="+ buffer +",%20Japan")
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
