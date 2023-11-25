@@ -124,7 +124,7 @@ Editing quote text files:
 
 Editing the wheater location text file:
 - Just replace the text only with your city name (like: Bhopal, Delhi)
-- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](https://github.com/Volcano-Dragon/Greeting-Time/blob/bf65543d67534c8cf51ad30b86dcee936d3a97af/GreetingTime.cpp#L43) <br>
+- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](GreetingTime.cpp#L43) <br>
  (like: "...&query="+ buffer +",%20Japan")
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
