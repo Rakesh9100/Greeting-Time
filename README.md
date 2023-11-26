@@ -10,6 +10,8 @@
 - [Technology Used🚀](#technology-used)
 - [Overview⭐](#overview)
 - [Getting Started💥](#getting-started)
+- [Installation of Library📑](#installation-of-Library)
+- [Additional files required for Program📑](#additional-files-required-for-Program)
 - [Contributing Guidelines📑](#contributing-guidelines)
 - [Code Of Conduct📑](#code-of-conduct)
 - [Project Admin⚡](#project-admin)
@@ -20,7 +22,7 @@
 
 <h2>Introduction📌</h2>
 
-This is a project in C++ that fetches the time from the system and greets the user according to the time fetched. It also randomly selects one motivational quote for morning, afternoon and evening from [Mo.txt](Mo.txt), [Af.txt](Af.txt) and [Ev.txt](Ev.txt) respectively.
+Greeting-Time is a console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches real-time weather information using an API request, keeping you informed and motivated throughout the day.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
@@ -35,13 +37,13 @@ This is a project in C++ that fetches the time from the system and greets the us
 <h2>Overview⭐</h2>
 
 <h3>1. The Time on the system is 09:00 AM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899395-7d5a1b6d-e29a-4d8a-94d3-0aa2f15cb60d.png" alt = "Morning Motivation"></img>
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/25f13e25-2acb-4293-9905-9c2a989ac149.png" alt = "Morning_temp"></img>
 
 <h3>2. The Time on the system is 12:00 PM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899430-3455b99e-f18f-4e2c-9ff5-e2770cc0ab6c.png" alt = "Afternoon Motivation"></img>
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/ce435fd4-98d9-4070-b914-d174788b13a3.png" alt = "Afternoon_temp"></img>
 
 <h3>3. The Time on the system is 08:00 PM</h3>
-<img src = "https://github-production-user-asset-6210df.s3.amazonaws.com/93902835/283899323-7b1f694f-9fb7-492d-bdc5-f7c8bb8896d8.png" alt = "Evening Motivation"></img>
+<img src = "https://github.com/Volcano-Dragon/Greeting-Time/assets/93902835/4c2295fa-2d7c-49da-8786-4bdd41bcd561.png" alt = "Evening_temp"></img>
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -89,6 +91,44 @@ git push origin <your_branch_name>
 - Congrats! 🥳 You've made your first pull request to this project repo.
 - Wait for your pull request to be reviewed and if required suggestions would be provided to improve it.
 - Celebrate 🥳 your success after your pull request is merged successfully.
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Installation of Library📑</h2>
+
+For fetching the details of wheather from an API request. The following two libraries are required to be installed:
+- [curl/curl.h](https://curl.se)
+- [nlohmann/json.hpp](https://github.com/nlohmann/json)
+
+Installation:
+- [curl/curl.h](https://everything.curl.dev/get)
+- [Step-by-step installation of curl for Visual studio](https://stackoverflow.com/questions/53861300/how-do-you-properly-install-libcurl-for-use-in-visual-studio-2017)
+- [nlohmann/json.hpp](https://github.com/nlohmann/json#integration)
+<p align="right">(<a href="#top">back to top</a>)</p>
+
+<!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
+
+<h2>Additional files required for Program📑</h2>
+
+Text files for printing the randomized quotes from the text file according to the current time:
+- [Mo.txt](Mo.txt) (For Morning motivation quotes)
+- [Af.txt](Af.txt) (For Afternoon motivation quotes)
+- [Ev.txt](Ev.txt) (For Evening motivation quotes)
+  
+Text file for fetching the current wheater of a location:
+- [cnf.txt](cnf.txt)
+
+<h3>How to edit the text files</h3>
+
+Editing quote text files:
+- Make sure to add the hashtag "#" after the last quote so the program can stop reading further.
+- Keep Serial number in format so the program can select the quotes randomly.
+
+Editing the wheater location text file:
+- Just replace the text only with your city name (like: Bhopal, Delhi)
+- To change the location of country, please edit the URL (variable name = user_city) in the [source-code](GreetingTime.cpp#L43) <br>
+ (like: "...&query="+ buffer +",%20Japan")
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
