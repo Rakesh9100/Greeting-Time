@@ -22,7 +22,7 @@
 
 <h2>Introduction📌</h2>
 
-Greeting-Time is a console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches real-time weather information using an API request, keeping you informed and motivated throughout the day.
+Greeting-Time is a console application that welcomes users with a personalized greeting based on the current time of day, provides a random motivational quote for inspiration, and fetches the real-time weather information using an API request, keeping you informed and motivated throughout the day.
 
 <!-- --------------------------------------------------------------------------------------------------------------------------------------------------------- -->
 
